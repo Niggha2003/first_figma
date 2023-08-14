@@ -81,10 +81,14 @@
     background: var(--product) rgb(255, 255, 255) 50% / contain no-repeat;
 }
 
+.Content__item__info__wrapper {
+    flex: 1;
+}
+
 .Content__item__info {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
 }
 
 .item__info__title {
@@ -300,7 +304,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .width__620--slider .Content__banner > span[skip] {
